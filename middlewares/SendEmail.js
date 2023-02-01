@@ -3,7 +3,7 @@ const dotenv = require("dotenv")
 dotenv.config({ path: './config.env' })
 
 
-exports.sendEmail = async (options) => {
+exports.SendEmail = async (options) => {
     const transporter = nodeMailer.createTransport({
       host: process.env.SMPT_HOST,
       service: process.env.SMPT_SERVICE,

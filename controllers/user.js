@@ -1,6 +1,6 @@
 const User = require("../models/User")
 const Post = require("../models/Post")
-const { sendEmail } = require("../middlewares/sendEmail");
+const { sendEmail } = require("../middlewares/SendEmail");
 const crypto = require("crypto");
 const cloudinary = require("cloudinary")
 
